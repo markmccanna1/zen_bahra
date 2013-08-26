@@ -1,0 +1,8 @@
+production:
+  :default_host: myapp.com
+
+development:
+  :default_host: myapp.dev
+
+test:
+  :default_host: myapp.dev

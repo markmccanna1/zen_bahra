@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: myapp_development
+  host: localhost
+  encoding: UTF8
+  min_messages: WARNING
+
+test: &test
+  adapter: postgresql
+  database: myapp_test
+  host: localhost
+  encoding: UTF8
+  min_messages: WARNING
