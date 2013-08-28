@@ -1,13 +1,11 @@
 require 'spec_helper'
 
-describe UsersController do
+describe UsersController, :type => :controller do
   let(:user_controller) { UsersController.new }
 
-  it "should have a method 'new'" do
-    expect(user_controller).to respond_to(:new)
+  it "should get new view" do
+    get :new
+    assert_response :success
+    assert_not_nil assigns(:user)
   end
-
-  it "should have a method 'create'" do
-    expect(user_controller).to respond_to(:create)
-  end 
 end
