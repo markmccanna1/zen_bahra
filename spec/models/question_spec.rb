@@ -6,16 +6,6 @@ describe 'Question' do
     @question = Question.new(:title => "first question", :body => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
   end
 
-  describe 'created_at' do
-    context "when a question is initialized" do
-      it "created_at should be set" do
-        Time.stub(:new).and_return("time")
-        @question = Question.new("a", "b")
-        @question.created_at.should eq "time"
-      end
-    end
-  end
-
   describe 'title' do
     context "when a question is initialized" do
       it "should have a title" do
