@@ -4,7 +4,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    # @user = User.create(params[:user])
+    puts "3" * 100
+    puts params.inspect
+    @user = User.create(params[:user])
     # session[:user_id] = @user.id
+
+    redirect_to('users/new')
   end
 end
