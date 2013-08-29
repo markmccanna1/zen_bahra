@@ -1,0 +1,5 @@
+<%= form_tag('/login', :method => 'post', :id => 'login_form')  do  %>
+  <%= text_field_tag :email %>
+  <%= password_field_tag :password %>
+  <%= submit_tag 'Login', :id => 'login' %>
+<% end %>
