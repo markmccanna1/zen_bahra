@@ -8,8 +8,7 @@ class QuestionsController < ApplicationController
   end
 
   def create
-    Question.create(params[:question])
-
+    current_user.questions.create(params[:question])
     redirect_to questions_path
   end
 end
