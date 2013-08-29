@@ -1,3 +1,5 @@
 MyApp::Application.routes.draw do
-  root :to => "home#index"
+  root :to => "comments#index"
+
+  resources :comments
 end
