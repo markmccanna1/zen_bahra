@@ -13,14 +13,6 @@
 
 ActiveRecord::Schema.define(:version => 20130828211038) do
 
-  create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "password_digest"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
   create_table "comments", :force => true do |t|
     t.text     "body"
     t.integer  "user_id"
@@ -30,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20130828211038) do
     t.datetime "updated_at",       :null => false
   end
 
+
   create_table "questions", :force => true do |t|
     t.integer  "user_id"
     t.string   "title"
@@ -37,6 +30,16 @@ ActiveRecord::Schema.define(:version => 20130828211038) do
     t.integer  "rating",     :default => 0
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
+
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "password_digest"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+
   end
 
 end
