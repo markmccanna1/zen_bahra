@@ -11,8 +11,33 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+ActiveRecord::Schema.define(:version => 20130829155335) do
 
-ActiveRecord::Schema.define(:version => 20130828191058) do
+  create_table "comments", :force => true do |t|
+    t.text     "body",             :null => false
+    t.integer  "user_id"
+    t.integer  "commentable_id"
+    t.string   "commentable_type"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  create_table "questions", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "title"
+    t.text     "body"
+    t.integer  "rating",     :default => 0
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  create_table "tags", :force => true do |t|
+    t.string   "name",        :null => false
+    t.text     "description", :null => false
+    t.integer  "user_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"
@@ -20,30 +45,6 @@ ActiveRecord::Schema.define(:version => 20130828191058) do
     t.string   "password_digest"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
-
   end
-end
 
-ActiveRecord::Schema.define(:version => 20130828211038) do
-
-  create_table "questions", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.integer  "rating",     :default => 0
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-
-  end
-end
-
-ActiveRecord::Schema.define(:version => 20130828205136) do
-
-  create_table "comments", :force => true do |t|
-    t.text     "body"
-    t.integer  "user_id"
-    t.integer  "commentable_id"
-    t.string   "commentable_type"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
-  end
 end
