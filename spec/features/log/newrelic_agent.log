@@ -1,0 +1,81 @@
+# Logfile created on 2013-08-28 15:52:58 -0500 by logger.rb/31641
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Starting the New Relic agent in "test" environment.
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Reading configuration from 
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Disabling the Request Sampler.
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Environment: test
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Dispatcher: thin
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Application: test
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing ActiveRecord instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing Dalli Memcache instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing Net instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing Rails 3 Controller instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Installing Rails3 Error instrumentation
+[08/28/13 15:52:58 -0500 dbc-chicago-001.local (36695)] INFO : Finished instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Starting the New Relic agent in "test" environment.
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Reading configuration from 
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Disabling the Request Sampler.
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Environment: test
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Dispatcher: thin
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Application: test
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing ActiveRecord instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing Dalli Memcache instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing Net instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing Rails 3 Controller instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Installing Rails3 Error instrumentation
+[08/28/13 15:54:19 -0500 dbc-chicago-001.local (36742)] INFO : Finished instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Starting the New Relic agent in "test" environment.
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Reading configuration from 
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Disabling the Request Sampler.
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Environment: test
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Dispatcher: thin
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Application: test
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing ActiveRecord instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing Dalli Memcache instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing Net instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing Rails 3 Controller instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Installing Rails3 Error instrumentation
+[08/28/13 15:56:53 -0500 dbc-chicago-001.local (36813)] INFO : Finished instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Starting the New Relic agent in "test" environment.
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Reading configuration from 
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Disabling the Request Sampler.
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Environment: test
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Dispatcher: thin
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Application: test
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing ActiveRecord instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing Dalli Memcache instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing Net instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing Rails 3 Controller instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Installing Rails3 Error instrumentation
+[08/28/13 16:07:38 -0500 dbc-chicago-001.local (37127)] INFO : Finished instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Starting the New Relic agent in "test" environment.
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Reading configuration from 
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Disabling the Request Sampler.
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Environment: test
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Dispatcher: thin
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Application: test
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing ActiveRecord instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing Dalli Memcache instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing Net instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing Rails 3 Controller instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Installing Rails3 Error instrumentation
+[08/28/13 16:29:58 -0500 dbc-chicago-001.local (37640)] INFO : Finished instrumentation

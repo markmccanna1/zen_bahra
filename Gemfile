@@ -26,6 +26,7 @@ gem 'httparty', '=0.8.3'
 gem 'nokogiri'
 gem 'dalli'
 gem 'thin'
+gem 'bcrypt-ruby', '=3.0.0'
 
 group :development do
   gem 'heroku'
