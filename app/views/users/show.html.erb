@@ -1,6 +1,7 @@
 <div class="container">
 	<h1>Welcome <%= @user.name %></h1>
 
+
 	<div>
 		<h2><%= @user.name %>'s questions</h2>
 			<% @user.questions.each do |i| %>
@@ -10,5 +11,5 @@
 	<div><br>
 	
 	<%= link_to "Ask Question", new_question_url %>
-	
+
 </div>

@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     redirect_to('users/new')
   end
 
-  def index
-    @user = current_user
+  def show
+    @user = User.first
   end
 end
