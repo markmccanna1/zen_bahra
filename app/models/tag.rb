@@ -1,6 +1,11 @@
 class Tag < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :name, :description
+
   validates :name, presence: true
   validates :description, presence: true
-  attr_accessible :name, :description
+  
+  has_many :topics
+  has_many :questions, through: :topics
+  has_many :devotees
+  has_many :followers, through: :devotees, source: :user
 end
