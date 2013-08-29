@@ -8,4 +8,6 @@ MyApp::Application.routes.draw do
 
   resources :comments
 
+  resources :tags
+
 end
