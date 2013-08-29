@@ -5,8 +5,8 @@ class User < ActiveRecord::Base
   validates :email, presence: true
   validates :email, uniqueness: true
   has_secure_password
+  
   has_many :questions
-
-  has_many :questions
-
+  has_many :devotees
+  has_many :followed_tags, through: :devotees, source: :tag
 end
