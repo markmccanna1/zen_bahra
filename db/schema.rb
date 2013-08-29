@@ -11,10 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130828211038) do
+ActiveRecord::Schema.define(:version => 20130829210612) do
+
+  create_table "answers", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "comments", :force => true do |t|
-    t.text     "body"
+    t.text     "body",             :null => false
     t.integer  "user_id"
     t.integer  "commentable_id"
     t.string   "commentable_type"
@@ -22,6 +27,12 @@ ActiveRecord::Schema.define(:version => 20130828211038) do
     t.datetime "updated_at",       :null => false
   end
 
+  create_table "devotees", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "tag_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "questions", :force => true do |t|
     t.integer  "user_id"
@@ -30,7 +41,20 @@ ActiveRecord::Schema.define(:version => 20130828211038) do
     t.integer  "rating",     :default => 0
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
+  end
 
+  create_table "tags", :force => true do |t|
+    t.string   "name",        :null => false
+    t.text     "description", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "topics", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "question_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "users", :force => true do |t|
@@ -39,7 +63,6 @@ ActiveRecord::Schema.define(:version => 20130828211038) do
     t.string   "password_digest"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
-
   end
 
 end
