@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe 'Question' do
+
+  it { should have_many(:answers)}
  
   before(:each) do
     @question = Question.new(:title => "first question", :body => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")

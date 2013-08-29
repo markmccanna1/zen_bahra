@@ -223,3 +223,163 @@
 [08/28/13 17:31:38 -0500 Marks-MacBook-Pro-2.local (99840)] INFO : Installing Rails 3.1/3.2 view instrumentation
 [08/28/13 17:31:38 -0500 Marks-MacBook-Pro-2.local (99840)] INFO : Installing Rails3 Error instrumentation
 [08/28/13 17:31:38 -0500 Marks-MacBook-Pro-2.local (99840)] INFO : Finished instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Reading configuration from 
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Disabling the Request Sampler.
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Environment: test
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Dispatcher: thin
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Application: test
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing Net instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:24:05 -0500 Marks-MacBook-Pro-2.local (9568)] INFO : Finished instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Reading configuration from 
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Disabling the Request Sampler.
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Environment: test
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Dispatcher: thin
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Application: test
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing Net instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:41:19 -0500 Marks-MacBook-Pro-2.local (9736)] INFO : Finished instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Reading configuration from 
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Disabling the Request Sampler.
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Environment: test
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Dispatcher: thin
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Application: test
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing Net instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:42:14 -0500 Marks-MacBook-Pro-2.local (9761)] INFO : Finished instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Reading configuration from 
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Disabling the Request Sampler.
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Environment: test
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Dispatcher: thin
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Application: test
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing Net instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:44:27 -0500 Marks-MacBook-Pro-2.local (9789)] INFO : Finished instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Reading configuration from 
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Disabling the Request Sampler.
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Environment: test
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Dispatcher: thin
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Application: test
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing Net instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:45:29 -0500 Marks-MacBook-Pro-2.local (9811)] INFO : Finished instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Reading configuration from 
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Disabling the Request Sampler.
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Environment: test
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Dispatcher: thin
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Application: test
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing Net instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:47:43 -0500 Marks-MacBook-Pro-2.local (9864)] INFO : Finished instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Reading configuration from 
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Disabling the Request Sampler.
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Environment: test
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Dispatcher: thin
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Application: test
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing Net instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 12:51:23 -0500 Marks-MacBook-Pro-2.local (9907)] INFO : Finished instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Reading configuration from 
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Disabling the Request Sampler.
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Environment: test
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Dispatcher: thin
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Application: test
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing Net instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 13:41:07 -0500 Marks-MacBook-Pro-2.local (10337)] INFO : Finished instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Reading configuration from 
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Disabling the Request Sampler.
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Environment: test
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Dispatcher: thin
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Application: test
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing Net instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 13:46:38 -0500 Marks-MacBook-Pro-2.local (10409)] INFO : Finished instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Starting the New Relic agent in "test" environment.
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "test" section of your newrelic.yml.
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Reading configuration from 
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] ERROR : Unable to read configuration file : can't convert nil into String
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Disabling the Request Sampler.
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Environment: test
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Dispatcher: thin
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Application: test
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'test'
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing ActiveRecord instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing Dalli Memcache instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing Net instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing Rails 3 Controller instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Installing Rails3 Error instrumentation
+[08/29/13 13:55:11 -0500 Marks-MacBook-Pro-2.local (10497)] INFO : Finished instrumentation
