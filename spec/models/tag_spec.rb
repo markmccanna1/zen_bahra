@@ -24,4 +24,7 @@ describe Tag do
       expect(t.valid?).to be_false
     end
   end
+
+  it { should have_many(:followers).through(:devotees)}
+  it { should have_many(:questions).through(:topics)}
 end
