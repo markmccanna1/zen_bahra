@@ -5,7 +5,7 @@ describe Comment do
   # pending "add some examples to (or delete) #{__FILE__}"
   let (:comment) {Comment.new(body: "wasup motha fuckaaaa", user_id: 1, commentable_id: 1)}
 
-  context '#initialize' do 
+  context '#initialize' do
     it "has a body" do
       expect(comment.body).to eql "wasup motha fuckaaaa"
     end 
