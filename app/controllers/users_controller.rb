@@ -8,4 +8,8 @@ class UsersController < ApplicationController
     session[:user_id] = @user.id
     redirect_to('users/new')
   end
+
+  def show
+    @user = current_user
+  end
 end
