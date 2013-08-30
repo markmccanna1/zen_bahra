@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Answer do
+describe 'Answer' do
 
   it { should belong_to(:question) }
 
@@ -9,7 +9,8 @@ describe Answer do
   context '#initialize' do
 
     it "has a body" do
-      expect(answer.body).to eql "testing body"
+      let(:answer_noname) {Answer.new}
+      expect{ answer_noname.save! }.to raise_error
     end
 
     it "has a default rating" do
