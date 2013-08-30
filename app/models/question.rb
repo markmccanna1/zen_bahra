@@ -4,6 +4,6 @@ class Question < ActiveRecord::Base
   has_many :topics
   has_many :tags, through: :topics
   has_many :answers
-  has_many :comments
+  has_many :comments, :as => :commentable
   belongs_to :user
 end
