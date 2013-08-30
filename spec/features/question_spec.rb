@@ -10,7 +10,6 @@ feature "Question creation" do
       visit(new_question_path)
       fill_in 'question_title', :with => 'testing'
       fill_in 'question_body', :with => 'Aenean lacinia bibendum nulla sed consectetur.'
-
       click_button('Create Question')
     end
 

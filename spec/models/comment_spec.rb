@@ -2,6 +2,7 @@ require 'spec_helper'
 require_relative "../../app/models/comment.rb"
 
 describe Comment do
+
   # pending "add some examples to (or delete) #{__FILE__}"
   let (:comment) {Comment.new(body: "wasup motha fuckaaaa", user_id: 1, commentable_id: 1)}
 

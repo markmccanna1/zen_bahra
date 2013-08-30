@@ -1,9 +1,8 @@
 MyApp::Application.routes.draw do
-  root :to => "home#index"
+  root :to => "questions#index"
 
-  resources :users, :questions, :comments, :tags
+  resources :users, :questions, :comments, :tags, :answers
 
   post '/login', :to => 'sessions#create', as: 'login'
   delete '/logout', :to => 'sessions#destroy', :via => :delete
-  # delete 'logout' => :destroy
 end
