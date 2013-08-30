@@ -1,3 +1,9 @@
 <h1><strong><%= @question.title %></strong></h1>
-<h3><%= @question.user.name  %></h3>
+<h3><%= @question.user.name %></h3>
 <p><%= @question.body %></p>
+<ul>
+  <% @question.comments.each do |comment| %>
+    <li><%=comment.body%> <br>
+      by: <%= comment.user.name %></li>
+  <% end %>
+</ul>
