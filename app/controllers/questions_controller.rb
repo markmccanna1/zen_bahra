@@ -8,10 +8,14 @@ class QuestionsController < ApplicationController
   end
 
   def create
-    puts "7" * 677
     if request.xhr?
-      current_user.questions.create(title: params[:title], body: params[:body])
-      render text: "#{Question.last.id}"and return
+      tags_arr = params[:tag].split(', ')
+      question = current_user.questions.create(title: params[:title], 
+                                               body: params[:body])
+      tags_arr.each do |tag|
+        question.tags.create(name: tag, description: "required") unless Tag.find_by_name(tag)
+      end
+      render text: "#{question.id}" and return
     else
       current_user.questions.create(params[:question])
       redirect_to questions_path
