@@ -1,13 +1,24 @@
 <h1><strong><%= @question.title %></strong></h1>
-Question:<p><%= @question.body %></p>
+<p><%= @question.body %></p>
 Asked By:<h4><%= @question.user.name %></h4>
+<a id='answer' href="/questions/<%= @question.id%>/answers/new">Answer Question</a>
+<a id='comment' href="/questions/<%= @question.id%>/comments/new">Comment on Question</a><br>
 
-<ul>
+<ul data-id='<%=@question.id %>' id='comment_list'>
   <% @question.comments.each do |comment| %>
     <li><%=comment.body%> <br>
       by: <%= comment.user.name %></li>
   <% end %>
 </ul>
 
+<ul>
+  <% @question.answers.each do |answer| %>
+    <div>
+      <li data-id='<%= answer.id %>'><%= answer.body %></li>
+        by:
+    </div>
+  <% end %>
+</ul>
 
-put answers here
+<div class="answers">
+</div>
