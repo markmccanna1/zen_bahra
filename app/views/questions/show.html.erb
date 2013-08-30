@@ -1,9 +1,13 @@
 <h1><strong><%= @question.title %></strong></h1>
-<h3><%= @question.user.name %></h3>
-<p><%= @question.body %></p>
+Question:<p><%= @question.body %></p>
+Asked By:<h4><%= @question.user.name %></h4>
+
 <ul>
   <% @question.comments.each do |comment| %>
     <li><%=comment.body%> <br>
       by: <%= comment.user.name %></li>
   <% end %>
 </ul>
+
+
+put answers here
