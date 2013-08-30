@@ -10,21 +10,16 @@ $(document).ready(function(){
                 '<input value="post question" type="submit"></form>')
 
     $('.questions').prepend(form)
-
     $('form').on('submit', function(event){
-      
       event.preventDefault();
-      console.log(this)
-      alert('hello')
       $(this).hide()
       var title = $("#title").val()
       var body = $("textarea").val()
       var tags = $('#tag').val()
       
       $.post('/questions', {title: title, body: body, tag: tags}, function(response){
-          alert(response)
-        // var html = $('<h2><a href="/questions/"' + response + '>' + title + '</a></h2>')
-        // $('.questions').prepend(html)
+        var html = $('<h2><a href="/questions/"' + response + '>' + title + '</a></h2>')
+        $('.questions').prepend(html)
       })
     })
   })
